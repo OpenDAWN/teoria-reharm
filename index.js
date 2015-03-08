@@ -1,5 +1,5 @@
-var Reharm = require('./lib/reharm');
+var Reharm = require('./lib/core');
 
-module.exports = function createNewReharm(opt) {
-    return new Reharm(opt);
+module.exports = function createNewReharm() {
+    return new Reharm();
 };
